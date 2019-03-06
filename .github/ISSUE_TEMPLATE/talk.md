@@ -1,7 +1,7 @@
 # Proposition de talk - Paris TypeScript
 
 ## Description du talk
-* Titre de la présentation :
+* Titre :
 * Contenu (Décrivez brièvement le contenu de la présentation) :
 * Durée :
   - [ ] 10 minutes
