@@ -1,5 +1,5 @@
 # Paris TypeScript
-Ce dépôt est dédié aux soumissions de talks pour le meetup Paris TypeScript !
+Ce dépôt est dédié aux soumissions de talks pour le meetup Paris TypeScript.
 
 🇫🇷 Envie de soumettre un talk ? C'est par [ici](https://github.com/ParisTypeScript/talks/issues/new?template=talk.md) !
 
