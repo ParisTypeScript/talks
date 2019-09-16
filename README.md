@@ -11,3 +11,4 @@ Ce dépôt est dédié aux soumissions de talks pour le meetup Paris TypeScript.
 - [Twitter](https://twitter.com/ParisTypeScript)
 - [Linkedin](https://www.linkedin.com/company/paris-typescript/about/)
 - [Slack](http://www.typescript.paris/slack)
+- [YouTube](https://www.youtube.com/channel/UCoV7eLpMyIW1FSXwjk3nqIQ)
