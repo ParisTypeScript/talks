@@ -2,13 +2,15 @@
 
 ## Talk description
 * Title:
+* 
 * Content (Briefly describe the content of the presentation):
+* 
 * Duration:
-  - [ ] 5 minutes (Lightning talk)
-  - [ ] 10 minutes
-  - [ ] 20 minutes
-  - [ ] 30 minutes
-  - [ ] Other, please specify:
+  - [ ] Lightning (10 minutes)
+  - [ ] Regular (20 minutes)
+  - [ ] Deep dive (40 minutes)
+  > ⚠️ please specify in the description why you need a deep dive format to present your topic
+
 * Level:
   - [ ] Beginner
   - [ ] Intermediate
