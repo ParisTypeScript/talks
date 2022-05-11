@@ -2,9 +2,9 @@
 
 ## Talk description
 * Title:
-* 
+
 * Content (Briefly describe the content of the presentation):
-* 
+
 * Duration:
   - [ ] Lightning (10 minutes)
   - [ ] Regular (20 minutes)
