@@ -1,0 +1,79 @@
+name: Talk Proposal 🇬🇧
+description: Submit a talk proposal for the next meetup
+title: "[Talk]: "
+labels: ["Under review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Talk Description
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: What is the title of your talk?
+    validations:
+      required: true
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: Briefly describe the content of your presentation.
+    validations:
+      required: true
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Duration
+      description: What is the duration of your talk?
+      options:
+        - "Lightning (10 minutes)"
+        - "Regular (20 minutes)"
+        - "Deep dive (40 minutes)"
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ For a "Deep Dive" talk, please specify in the abstract why you need more time to present your topic. Note that longer presentations are not prioritized, as we prefer multiple shorter presentations.
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      description: What is the level of your talk?
+      options:
+        - "Beginner"
+        - "Intermediate"
+        - "Advanced"
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## About You
+  - type: input
+    id: name
+    attributes:
+      label: Full Name
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (BlueSky, X, LinkedIn, Other)
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company
+    validations:
+      required: false
+  - type: input
+    id: job
+    attributes:
+      label: Job Title or Role
+    validations:
+      required: false

@@ -1,0 +1,79 @@
+name: Proposition de talk 🇫🇷
+description: Proposition de talk pour le prochain meetup
+title: "[Talk]: "
+labels: ["Under review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Description du talk
+  - type: input
+    id: title
+    attributes:
+      label: Titre
+      description: Quel est le titre de votre talk ?
+    validations:
+      required: true
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Contenu
+      description: Décrivez brièvement le contenu de la présentation
+    validations:
+      required: true
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Durée
+      description: Quelle est la durée de votre talk ?
+      options:
+        - "Lightning (10 minutes)"
+        - "Regular (20 minutes)"
+        - "Deep dive (40 minutes)"
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ Pour un talk "Deep Dive", veuillez préciser dans la description pourquoi vous avez besoin de plus de temps pour présenter votre sujet. Pour information, les présentations longues ne sont pas prioritaires, car nous préférons avoir plusieurs présentations courtes pour les participants à l'événement.
+  - type: dropdown
+    id: level
+    attributes:
+      label: Niveau
+      description: Quel est le niveau de votre talk ?
+      options:
+        - "Débutant"
+        - "Intermédiaire"
+        - "Avancé"
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## À propos de vous
+  - type: input
+    id: name
+    attributes:
+      label: Nom et prénom
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (Bluesky, X, LinkedIn, Autre)
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Entreprise
+    validations:
+      required: false
+  - type: input
+    id: job
+    attributes:
+      label: Rôle ou fonction dans l'entreprise
+    validations:
+      required: false
