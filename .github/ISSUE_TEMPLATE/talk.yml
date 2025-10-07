@@ -29,14 +29,9 @@ body:
       options:
         - "Lightning (10 minutes)"
         - "Regular (20 minutes)"
-        - "Deep dive (40 minutes)"
       default: 0
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        > ⚠️ Pour un talk "Deep Dive", veuillez préciser dans la description pourquoi vous avez besoin de plus de temps pour présenter votre sujet. Pour information, les présentations longues ne sont pas prioritaires, car nous préférons avoir plusieurs présentations courtes pour les participants à l'événement.
   - type: dropdown
     id: level
     attributes:
